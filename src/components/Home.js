@@ -7,8 +7,8 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Credits />
-        <Debits />
+        <Credits heading="Credit" symbol="+" />
+        <Debits heading="Debit" symbol="-" />
       </div>
     );
   }

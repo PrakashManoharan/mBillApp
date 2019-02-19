@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Home from './components/Home';
+import Header from './layouts/Header';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Flat Maintenance App</h1>
+        <Header branding="mBillApp" />
         <Home />
       </div>
     );

@@ -3,10 +3,11 @@
   text-align: center;
 }
  */
-h1 {
+header {
   font-family: sans-serif, Arial, 'Helvetica', 'calibiri';
   text-align: center;
 }
+
 /* Debits */
 
 .header-debits {
@@ -22,5 +23,5 @@ h1 {
 }
 
 .symbol {
-  padding: 0px 20px;
+  padding: 0px 50px;
 }
