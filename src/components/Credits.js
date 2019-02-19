@@ -7,7 +7,7 @@ const Credits = () => {
       <h1 className="header">
         <span className="symbol">+</span>Credits
       </h1>
-      <h3 className="credit-value">{creditAmount}</h3>
+      <p className="credit-value">{creditAmount}</p>
     </div>
   );
 };
