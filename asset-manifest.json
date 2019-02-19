@@ -1,13 +1,13 @@
 {
   "main.css": "/mbillapp/static/css/main.9948a7da.chunk.css",
-  "main.js": "/mbillapp/static/js/main.e37936f3.chunk.js",
-  "main.js.map": "/mbillapp/static/js/main.e37936f3.chunk.js.map",
+  "main.js": "/mbillapp/static/js/main.b4400c1e.chunk.js",
+  "main.js.map": "/mbillapp/static/js/main.b4400c1e.chunk.js.map",
   "runtime~main.js": "/mbillapp/static/js/runtime~main.d71f21d6.js",
   "runtime~main.js.map": "/mbillapp/static/js/runtime~main.d71f21d6.js.map",
   "static/js/2.f1320c0d.chunk.js": "/mbillapp/static/js/2.f1320c0d.chunk.js",
   "static/js/2.f1320c0d.chunk.js.map": "/mbillapp/static/js/2.f1320c0d.chunk.js.map",
   "index.html": "/mbillapp/index.html",
-  "precache-manifest.66c51975062ca424f1be00d170cdb5fa.js": "/mbillapp/precache-manifest.66c51975062ca424f1be00d170cdb5fa.js",
+  "precache-manifest.9c73af0b5281f1eaa436746826f38c63.js": "/mbillapp/precache-manifest.9c73af0b5281f1eaa436746826f38c63.js",
   "service-worker.js": "/mbillapp/service-worker.js",
   "static/css/main.9948a7da.chunk.css.map": "/mbillapp/static/css/main.9948a7da.chunk.css.map"
 }
