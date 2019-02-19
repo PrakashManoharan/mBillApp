@@ -9,7 +9,7 @@ const Debits = () => {
       <h1 className="deb-header">
         <span className="symbol">-</span>Debits
       </h1>
-      <h2 className="deb-value">{totalDebits}</h2>
+      <h5 className="deb-value">{totalDebits}</h5>
     </div>
   );
 };
