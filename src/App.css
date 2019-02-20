@@ -4,7 +4,7 @@
 }
  */
 header {
-  font-family: sans-serif, Arial, 'Helvetica', 'calibiri';
+  font-family: sans-serif, Arial, 'Helvetica';
   text-align: center;
 }
 
@@ -24,4 +24,16 @@ header {
 
 .symbol {
   padding: 0px 50px;
+}
+
+/* Receipts */
+
+.rcpts {
+  padding: 0px 20px;
+}
+
+/* font awesome icon */
+
+i {
+  padding: 0px 20px;
 }

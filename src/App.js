@@ -1,16 +1,43 @@
 import React, { Component } from 'react';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import Home from './components/Home';
+import Home from './layouts/Home';
 import Header from './layouts/Header';
+import Receipts from './components/Receipts';
+import Payments from './components/Payments';
+import Invoice from './components/Invoice';
+import History from './components/History';
+import Notification from './components/Notification';
+import About from './components/Pages/About';
+import Login from './components/Login';
+
+import { Provider } from './context';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header branding="mBillApp" />
-        <Home />
-      </div>
+      <Provider>
+        <Router>
+          <div className="App">
+            <Header branding="mBillApp" />
+            <div className="container">
+              <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/receipts" component={Receipts} />
+                <Route exact path="/payments" component={Payments} />
+                <Route exact path="/invoice" component={Invoice} />
+                <Route exact path="/history" component={History} />
+                <Route exact path="/notification" component={Notification} />
+                <Route exact path="/about" component={About} />
+                <Route exact path="/login" component={Login} />
+              </Switch>
+            </div>
+          </div>
+        </Router>
+      </Provider>
     );
   }
 }

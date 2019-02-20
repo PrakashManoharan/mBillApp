@@ -1,19 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import '../App.css';
+import '../../App.css';
 
 const Debits = props => {
   const { symbol, heading } = props;
   const totalDebits = 0;
 
   return (
-    <div className="header-debits">
+    <div className="header-debits card card-header mb-5 bg-light">
       <h1 className="deb-header">
         <span className="symbol">{symbol}</span>
         {heading}
       </h1>
-      <h3 className="deb-value">{totalDebits}</h3>
+      <h3 className="card my-3 py-3">{totalDebits}</h3>
     </div>
   );
 };
