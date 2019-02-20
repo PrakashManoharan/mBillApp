@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/mbillapp/static/js/runtime~main.d71f21d6.js"
   },
   {
-    "revision": "b38e9a823d8b845e5b30",
-    "url": "/mbillapp/static/js/main.b38e9a82.chunk.js"
+    "revision": "10756446937fc5b835ca",
+    "url": "/mbillapp/static/js/main.10756446.chunk.js"
   },
   {
     "revision": "a04a9e57c926abe2ad2e",
     "url": "/mbillapp/static/js/2.a04a9e57.chunk.js"
   },
   {
-    "revision": "b38e9a823d8b845e5b30",
+    "revision": "10756446937fc5b835ca",
     "url": "/mbillapp/static/css/main.5dbaeeff.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/mbillapp/static/css/2.7290d8d8.chunk.css"
   },
   {
-    "revision": "85c021a27b48af6d801a6add8e07d7e7",
+    "revision": "82e13fa1d4fec326eca19e9316fa100f",
     "url": "/mbillapp/index.html"
   }
 ];
