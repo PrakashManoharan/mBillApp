@@ -15,6 +15,7 @@ import { Provider } from './context';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+//import './logo.svg';
 
 class App extends Component {
   render() {
@@ -22,7 +23,7 @@ class App extends Component {
       <Provider>
         <Router>
           <div className="App">
-            <Header branding="mBillApp" />
+            <Header branding="myMbill" />
             <div className="container">
               <Switch>
                 <Route exact path="/" component={Home} />

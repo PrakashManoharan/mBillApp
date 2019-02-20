@@ -30,7 +30,7 @@ export default class Invoice extends Component {
                   <th>1225</th>
                 </tr>
               </tbody>
-              <thead className="bg-dark text-light">
+              <thead className="bg-light">
                 <tr>
                   <th>Total</th>
                   <th>0</th>
@@ -81,7 +81,7 @@ export default class Invoice extends Component {
                     <th>1100</th>
                   </tr>
                 </tbody>
-                <thead className="bg-dark text-light">
+                <thead className="bg-light">
                   <tr>
                     <th />
                     <th>Total</th>
@@ -113,7 +113,7 @@ export default class Invoice extends Component {
                     <th>1000</th>
                   </tr>
                 </tbody>
-                <thead className="bg-dark text-light">
+                <thead className="bg-light">
                   <tr>
                     <th />
                     <th>Total</th>

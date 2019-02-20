@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import FileUpload from './FileUpload';
+//import FileUpload from './FileUpload';
 
 export default class History extends Component {
   render() {
