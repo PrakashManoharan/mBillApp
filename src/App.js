@@ -10,6 +10,7 @@ import History from './components/History';
 import Notification from './components/Notification';
 import About from './components/Pages/About';
 import Login from './components/Login';
+import AddMaster from './layouts/AddMaster';
 
 import { Provider } from './context';
 
@@ -34,6 +35,7 @@ class App extends Component {
                 <Route exact path="/notification" component={Notification} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/login" component={Login} />
+                <Route exact path="/addmaster" component={AddMaster} />
               </Switch>
             </div>
           </div>

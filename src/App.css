@@ -37,3 +37,15 @@ header {
 i {
   padding: 0px 20px;
 }
+
+/* Add Master */
+
+.add:hover {
+  background-color: rgba(15, 219, 97, 0.87);
+  color: #fff;
+}
+
+.reset:hover {
+  background-color: rgba(248, 56, 56, 0.87);
+  color: #fff;
+}
