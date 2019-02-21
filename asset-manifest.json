@@ -1,15 +1,15 @@
 {
-  "main.css": "/mbillapp/static/css/main.5dbaeeff.chunk.css",
-  "main.js": "/mbillapp/static/js/main.10756446.chunk.js",
-  "main.js.map": "/mbillapp/static/js/main.10756446.chunk.js.map",
-  "runtime~main.js": "/mbillapp/static/js/runtime~main.d71f21d6.js",
-  "runtime~main.js.map": "/mbillapp/static/js/runtime~main.d71f21d6.js.map",
-  "static/css/2.7290d8d8.chunk.css": "/mbillapp/static/css/2.7290d8d8.chunk.css",
-  "static/js/2.a04a9e57.chunk.js": "/mbillapp/static/js/2.a04a9e57.chunk.js",
-  "static/js/2.a04a9e57.chunk.js.map": "/mbillapp/static/js/2.a04a9e57.chunk.js.map",
-  "index.html": "/mbillapp/index.html",
-  "precache-manifest.15b454929805a813fd4b598f6fdf28a6.js": "/mbillapp/precache-manifest.15b454929805a813fd4b598f6fdf28a6.js",
-  "service-worker.js": "/mbillapp/service-worker.js",
-  "static/css/2.7290d8d8.chunk.css.map": "/mbillapp/static/css/2.7290d8d8.chunk.css.map",
-  "static/css/main.5dbaeeff.chunk.css.map": "/mbillapp/static/css/main.5dbaeeff.chunk.css.map"
+  "main.css": "/mymbill/static/css/main.c87b128d.chunk.css",
+  "main.js": "/mymbill/static/js/main.e2a76d62.chunk.js",
+  "main.js.map": "/mymbill/static/js/main.e2a76d62.chunk.js.map",
+  "runtime~main.js": "/mymbill/static/js/runtime~main.8e001af4.js",
+  "runtime~main.js.map": "/mymbill/static/js/runtime~main.8e001af4.js.map",
+  "static/css/2.7290d8d8.chunk.css": "/mymbill/static/css/2.7290d8d8.chunk.css",
+  "static/js/2.3cb95d79.chunk.js": "/mymbill/static/js/2.3cb95d79.chunk.js",
+  "static/js/2.3cb95d79.chunk.js.map": "/mymbill/static/js/2.3cb95d79.chunk.js.map",
+  "index.html": "/mymbill/index.html",
+  "precache-manifest.a089153fbd7ca389c091089077bc2c49.js": "/mymbill/precache-manifest.a089153fbd7ca389c091089077bc2c49.js",
+  "service-worker.js": "/mymbill/service-worker.js",
+  "static/css/2.7290d8d8.chunk.css.map": "/mymbill/static/css/2.7290d8d8.chunk.css.map",
+  "static/css/main.c87b128d.chunk.css.map": "/mymbill/static/css/main.c87b128d.chunk.css.map"
 }
