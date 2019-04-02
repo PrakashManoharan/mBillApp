@@ -1,17 +1,29 @@
 const express = require(`express`);
 const mongoose = require(`mongoose`);
+const bodyParser = require(`body-parser`);
 
 const users = require(`./src/routes/api/users`);
 const profile = require(`./src/routes/api/profile`);
 
 const app = express();
 
-// DB Config
+// Body parser middleware
+app.use(
+  bodyParser.urlencoded({
+    extended: true
+  })
+);
 
+// Parse application/json
+app.use(bodyParser.json());
+
+// parse various different custom JSON types as JSON
+//app.use(bodyParser.json({ type: 'application/*+json' }));
+
+// DB Config
 const db = require(`./config/keys`).mongoURI;
 
 // connect to MongoDB
-
 mongoose
   .connect(db)
   .then(() => console.log(`MongoDB connected`))

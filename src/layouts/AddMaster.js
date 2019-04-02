@@ -5,7 +5,7 @@ export default class Master extends Component {
     return (
       <form id="add-master">
         <h3 className="text-info mb-5">
-          <span className="text-secondary">ADD</span> Master
+          A<span className="text-secondary">dd</span> Master
         </h3>
 
         <div className="col-md-6 mb-3 bg-info text-light">

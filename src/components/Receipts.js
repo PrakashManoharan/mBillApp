@@ -22,11 +22,11 @@ export default class Receipts extends Component {
             </thead>
             <tbody>
               <tr>
-                <th className="row">11 Feb 2019</th>
-                <th>G1</th>
-                <th>1325</th>
-                <th>1300</th>
-                <th>25</th>
+                <th  scope="col"className="row">11 Feb 2019</th>
+                <th scope="col">G1</th>
+                <th scope="col">1325</th>
+                <th scope="col">1300</th>
+                <th scope="col">25</th>
               </tr>
               <tr>
                 <th className="row">13 Feb 2019</th>
